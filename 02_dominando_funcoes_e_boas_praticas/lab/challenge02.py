@@ -1,6 +1,3 @@
-from unittest import case
-
-
 def identificar_categoria_gadget(codigo):
     """
     Recebe uma string 'codigo' e retorna a categoria associada:
@@ -17,14 +14,14 @@ def identificar_categoria_gadget(codigo):
     first_letter = codigo[0].upper()
 
     match (first_letter):
-        case 'T':
-            return 'tablet'
-        case 'P':
-            return 'phone'
-        case 'N':
-            return 'notebook'
+        case "T":
+            return "tablet"
+        case "P":
+            return "phone"
+        case "N":
+            return "notebook"
         case _:
-            return 'unknown'
+            return "unknown"
 
 
 # Leitura da entrada (espera-se uma string representando o código do gadget)
