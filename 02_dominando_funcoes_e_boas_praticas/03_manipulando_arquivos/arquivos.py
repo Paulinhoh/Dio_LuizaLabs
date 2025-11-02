@@ -8,7 +8,6 @@
       Um arquivo é um conteiner no computador onde as informações são armazenadas em formato digital. Existem dois tipos
     de arquivos que podemos manipular em python: arquivos de texto e arquivos binario.
 '''
-from traceback import print_tb
 
 # abrindo e fechando arquivos
 file = open('example.txt', 'r')  # abrindo o arquivo
