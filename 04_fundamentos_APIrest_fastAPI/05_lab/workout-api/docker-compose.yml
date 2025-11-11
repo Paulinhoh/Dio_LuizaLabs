@@ -1,0 +1,13 @@
+version: "3"
+services:
+    de:
+        image: postgres:11-alpine
+        environment:
+            POSTGRES_USER: workout
+            POSTGRES_PASSWORD: workout
+            POSTGRES_DB: workout
+        ports:
+            - "5432:5432"
+# docker-compose up -d  -> subir a imagem no docker
+# docker ps
+# docker inspect <image>
